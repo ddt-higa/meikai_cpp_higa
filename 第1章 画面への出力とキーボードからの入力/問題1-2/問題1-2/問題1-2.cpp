@@ -2,7 +2,7 @@
 
 #include <iostream>
 //using指令を削除します
-using namespace std;
+
 int main()
 {
 	//coutをstd::coutに変更して「初めてのC++プログラム。」をコンソール画面に出力し、改行します。
