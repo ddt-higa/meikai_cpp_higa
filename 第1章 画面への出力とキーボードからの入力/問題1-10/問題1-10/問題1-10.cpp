@@ -1,4 +1,4 @@
-//���K1-10 �E�Ɏ����悤�ɁA�L�[�{�[�h����ǂݍ��񂾐����l��10���������l��10���������l���o�͂���v���O�������쐬����B�u�����l:7 ���s 10���������l��17�ł��B ���s 10���������l��-3�ł��B�v
+﻿//演習1-10 右に示すように、キーボードから読み込んだ整数値に10を加えた値と10を減じた値を出力するプログラムを作成せよ。「整数値:7 改行 10を加えた値は17です。 改行 10を減じた値は-3です。」
 
 #include<iostream>
 
@@ -6,18 +6,18 @@ using namespace std;
 
 int main()
 {
-	//inputInteger�͉������鐮���l
+	//inputIntegerは加減する整数値
 	int inputInteger;
 
-	//�u�����l:�v��\��
-	cout << "�����l:";
-	//inputInteger�ɐ����l����
+	//「整数値:」を表示
+	cout << "整数値:";
+	//inputIntegerに整数値を代入
 	cin >> inputInteger;
 
-	//�u10���������l��17�ł��B�v�ƕ\��
-	cout << "10���������l��" << inputInteger + 10 << "�ł��B\n";
-	//�u10���������l��-3�ł��B�v�ƕ\��
-	cout << "10���������l��" << inputInteger - 10 << "�ł��B\n";
+	//inputIntegerに7を代入し、代入した値に10を足して、「10を加えた値は17です。」と表示
+	cout << "10を加えた値は" << inputInteger + 10 << "です。\n";
+	//inputIntegerに7を代入し、代入した値から10を引いて、「10を減じた値は-3です。」と表示
+	cout << "10を減じた値は" << inputInteger - 10 << "です。\n";
 }
 
-	//���s�������ʁA�L�[�{�[�h����̓ǂݎ��ƌv�Z���ʂ̕\�����m�F
+	//実行した結果、キーボードからの読み取りと計算結果の表示を確認
