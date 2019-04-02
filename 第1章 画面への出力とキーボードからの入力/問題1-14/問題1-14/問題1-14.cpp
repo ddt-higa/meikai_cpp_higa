@@ -7,17 +7,20 @@ using namespace std;
 int main()
 {
 	//inputIntegerを整数値として設定
-	int inputInteger;
+	//int inputInteger;
 
 	//「整数値」の入力を促す
-	cout << "整数値:";
+	//cout << "整数値:";
 	//inputIntegerに任意の整数値を読み込む
-	cin >> inputInteger;
+	//cin >> inputInteger;
 
-	int randomNumber = rand() % 11 - 5;
+	//int randomNumber = rand() % 11-5;
 
-	cout << "その値の±5の乱数を生成しました。それは" << inputInteger + randomNumber << "です。\n";
+	//cout << "その値の±5の乱数を生成しました。それは" << inputInteger + randomNumber << "です。\n";
+		
 
+	int randomNumber = rand() % 11;
+	cout << randomNumber;
 }
 
 //実行した結果、1以上9以下、-9以上-1以下、10以上99以下の乱数の表示を確認
