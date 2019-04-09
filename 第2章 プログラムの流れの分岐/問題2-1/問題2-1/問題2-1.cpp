@@ -13,14 +13,15 @@ int main()
 	//「inputInteger」nの入力を促す
 	cin >> inputInteger;
 	//「inputInteger >= 0」の場合の実行動作を指定
-	if (inputInteger >= 0)
-	//「その絶対値は（inputIntegerに入力した値）です。」
+	if (inputInteger >= 0) {
+		//「その絶対値は（inputIntegerに入力した値）です。」
 		cout << "その絶対値は" << inputInteger << "です。\n";
+	}
 	//「inputInteger >= 0」以外の場合の実行動作を指定
-	else
-	//「その絶対値は（inputIntegerに入力した値）です。」
+	else {
+		//「その絶対値は（inputIntegerに入力した値）です。」
 		cout << "その絶対値は" << -1 * inputInteger << "です。\n";
-
+	}
 }
 
 //実行した結果、読み込んだ整数値が絶対値で表示されることを確認

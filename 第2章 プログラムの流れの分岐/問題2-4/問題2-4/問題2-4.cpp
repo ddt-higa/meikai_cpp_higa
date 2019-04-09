@@ -11,19 +11,23 @@ int main()
 	//「positiveInteger」に整数値を読み込む
 	cin >> positiveInteger;
 	//「positiveInteger」が正の整数の場合の実行動作を指定
-	if (positiveInteger > 0)
+	if (positiveInteger > 0) {
 		//「positiveInteger」が5で割り切れる場合の実行動作を指定
-		if (positiveInteger % 5 == 0)
+		if (positiveInteger % 5 == 0) {
 			//「その値は5で割り切れます。」を表示
 			cout << "その値は5で割り切れます。\n";
 			//「positiveInteger」が5で割り切れる場合の実行動作を指定
-		else
+		}
+		else {
 			//「その値は5で割り切れません。」を表示
 			cout << "その値は5で割り切れません。\n";
+		}
+	}
 	//「positiveInteger」が正の整数ではない場合の実行動作を指定
-	else
+	else {
 		//「正でない値が入力されました。」を表示
 		cout << "正でない値が入力されました。\n";
+	}
 }
 
 //実行した結果、5で割り切れる正の整数か判定できることを確認
