@@ -18,25 +18,21 @@ int main()
 		if (gradeScores >= 0 && gradeScores <= 59) {
 			//「不可」と表示
 			cout << "不可";
-		}
 		//gradeScoresが60以上69以下の場合の動作を指定
-		else if (gradeScores >= 60 && gradeScores <= 69) {
+		} else if (gradeScores >= 60 && gradeScores <= 69) {
 			//「可」と表示
 			cout << "可";
-		}
 		//gradeScoresが70以上79以下の場合の動作を指定
-		else if (gradeScores >= 70 && gradeScores <= 79) {
+		} else if (gradeScores >= 70 && gradeScores <= 79) {
 			//「良」と表示
 			cout << "良";
-		}
 		//gradeScoresが80以上100以下の場合の動作を指定
-		else if (gradeScores >= 80 && gradeScores <= 100) {
+		} else if (gradeScores >= 80 && gradeScores <= 100) {
 			//「優」と表示
 			cout << "優";
 		}
-	}
 	//gradeScoresが0以上100以下の範囲外の場合の動作を指定
-	else {
+	} else {
 			cout << "評価不能";
 	}
 }

@@ -33,12 +33,11 @@ int main()
 	//compairsonInteger2の値がminより小さければ、minにcompairsonInteger2の値を設定
 	if (compairsonInteger2 < min) {
 		min = compairsonInteger2;
-	}
+	} 
 	//compairsonInteger3の値がminより小さければ、minにcompairsonInteger3の値を設定
 	if (compairsonInteger3 < min) {
-		min = compairsonInteger3;
+			min = compairsonInteger3;
 	}
-
 	//最小値の値を表示
 	cout << "最小値は" << min << "です。\n";
 }
