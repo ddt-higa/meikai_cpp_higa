@@ -27,11 +27,13 @@ int main()
 	//minCompairsonIntegerにcompairsonInteger1とcompairsonInteger2の小さいほうを設定
 	int minCompairsonInteger = compairsonInteger1 < compairsonInteger2 ? compairsonInteger1 : compairsonInteger2;
 
-	//読み込んだ値の差が10以下の場合、差が10以下であることをメッセージ表示する
+	//読み込んだ値の差が10以下の場合の動作を指定
 	if (maxCompairsonInteger - minCompairsonInteger <= 10) {
+		//差が10以下であることを表示
 		cout << "それらの差は10以下です。\n";
-		//読み込んだ値の差が10以下以外の場合、差が11以上であることをメッセージ表示する
+		//読み込んだ値の差が10以下以外の場合の動作を指定
 	} else {
+		//差が11以上であることを表示
 		cout << "それらの差は11以上です。\n";
 	}
 }
