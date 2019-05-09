@@ -39,7 +39,7 @@ int main()
 		//大きいほうの値がmaxの値であることを示すメッセージを表示
 		cout << "大きいほうの値は" << max << "です。\n";
 		//compairsonInteger1とcompairsonInteger2の値が等しい場合の動作を指定
-	} else if (compairsonInteger1 = compairsonInteger2){ 
+	} else { 
 		//「二つの値は同じです。」を表示
 		cout << "二つの値は同じです。\n";
 	}

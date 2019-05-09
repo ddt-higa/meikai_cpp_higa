@@ -42,7 +42,7 @@ int main() {
 		//中央値にcompairsonInteger1を設定
 		medianInteger = compairsonInteger1;
 		//「compairsonInteger3 <= compairsonInteger2 <= compairsonInteger1」の時の動作を指定
-	}else if (compairsonInteger3 <= compairsonInteger2 && compairsonInteger2 <= compairsonInteger1) {
+	}else {
 		//中央値にcompairsonInteger2を設定
 		medianInteger = compairsonInteger2;
 	}//中央値を表示

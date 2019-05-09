@@ -13,22 +13,21 @@ int main()
 	//作成した乱数を表示
 	cout << "randomNumber:" << randomNumber << "\n";
 	//randomNumberのswich文を作成
-	switch (randomNumber)
-	{
+	switch (randomNumber){
 		//乱数が0の場合は大吉と表示
-	case 0: cout << "大吉\n"; break;
+		case 0: cout << "大吉\n"; break;
 		//乱数が1の場合はチョキと表示
-	case 1: cout << "中吉\n"; break;
+		case 1: cout << "中吉\n"; break;
 		//乱数が2の場合はパーと表示
-	case 2: cout << "小吉\n"; break;
+		case 2: cout << "小吉\n"; break;
 		//乱数が3の場合はパーと表示
-	case 3: cout << "吉\n"; break;
+		case 3: cout << "吉\n"; break;
 		//乱数が4の場合はパーと表示
-	case 4: cout << "末吉\n"; break;
+		case 4: cout << "末吉\n"; break;
 		//乱数が5の場合はパーと表示
-	case 5: cout << "凶\n"; break;
+		case 5: cout << "凶\n"; break;
 		//乱数が6の場合はパーと表示
-	case 6: cout << "大凶\n"; break;
+		case 6: cout << "大凶\n"; break;
 	}
 }
 
