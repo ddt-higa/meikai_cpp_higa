@@ -28,7 +28,7 @@ int main()
 {
 	//retryPointを繰り返し判定用変数として定義
 	string retryPoint;
-	//ループ文を指定
+	//do文の繰り返しを指定
 	do {
 		//determinationIntegerを整数として指定
 		int determinationInteger;
@@ -48,8 +48,8 @@ int main()
 			} else {
 			//読み込んだ値が0であることを表示
 			cout << "その値は0です。\n";
-		} //もう一度入力・表示を繰り返すか問う
-		do {
+		//do文の繰り返しを指定
+		} do {
 			//もう一度入力・表示を繰り返すか問う
 			cout << "もう一度？ Y・・・Yes/N・・・No：";
 			//入力・表示を繰り返すかの返答を読み込む

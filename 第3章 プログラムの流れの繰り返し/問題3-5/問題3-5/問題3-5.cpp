@@ -31,14 +31,20 @@ int main()
 	cout << "何個*を表示しますか：";
 	//inputIntegerに整数値を読み込み
 	cin >> inputInteger;
-	//
+	//addIntegerを整数として指定し、初期値0を代入
 	int addInteger = 0;
+	//addIntegerがinputIntegerより小さい場合のwhile文を指定
 	while (addInteger < inputInteger) {
+		//*を表示
 		cout << '*';
+		//addIntegerを一つずつ増加
 		addInteger++;
-	}
+	} 
+	//inputIntegerが1より小さい場合の何もしない動作を指定
 	if (inputInteger < 1) {
+	//inputIntegerが1より大きい場合の動作を指定
 	} else {
+		//改行文字を表示
 		cout << '\n';
 	}
 }

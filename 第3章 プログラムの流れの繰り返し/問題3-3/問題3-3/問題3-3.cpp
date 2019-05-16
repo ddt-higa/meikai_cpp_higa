@@ -29,15 +29,13 @@ int main()
 		//minIntegerにinputIntegerBの値を代入
 		minInteger = inputIntegerB;
 	//inputIntegerBがinputIntegerAより大きい場合の動作を指定
-	}
-	else {
+	} else {
 		//maxIntegerの値にinputIntegerBの値を代入
 		maxInteger = inputIntegerB;
 		//minIntegerにinputIntegerAの値を代入
 		minInteger = inputIntegerA;
-	}
 	//addIntegerを整数値として設定し、初期値0を代入
-	int addInteger = 0; 
+	} int addInteger = 0; 
 	//differIntegerを整数値として設定し、maxIntegerとminIntegerの差分値を代入
 	int differInteger = maxInteger - minInteger;
 	//do文の繰り返しを指定
