@@ -34,8 +34,9 @@ int main()
 		maxInteger = inputIntegerB;
 		//minIntegerにinputIntegerAの値を代入
 		minInteger = inputIntegerA;
+	} 
 	//addIntegerを整数値として設定し、初期値0を代入
-	} int addInteger = 0; 
+	int addInteger = 0; 
 	//differIntegerを整数値として設定し、maxIntegerとminIntegerの差分値を代入
 	int differInteger = maxInteger - minInteger;
 	//do文の繰り返しを指定

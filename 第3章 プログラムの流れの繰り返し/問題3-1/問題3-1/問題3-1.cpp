@@ -40,12 +40,12 @@ int main()
 		if (determinationInteger > 0) {
 			//読み込んだ値が正であることを表示
 			cout << "その値は正です。\n";
-				//determinationIntegerが0より小さいときの動作を指定
+			//determinationIntegerが0より小さいときの動作を指定
 		} else if (determinationInteger < 0) {
 			//読み込んだ値が負であることを表示
 			cout << "その値は負です。\n";
-			//determinationIntegerが0のときの動作を指定
-			} else {
+		//determinationIntegerが0のときの動作を指定
+		} else {
 			//読み込んだ値が0であることを表示
 			cout << "その値は0です。\n";
 		//do文の繰り返しを指定
