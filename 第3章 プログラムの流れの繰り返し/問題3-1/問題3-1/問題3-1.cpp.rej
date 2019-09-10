@@ -1,9 +1,0 @@
-diff a/第3章 プログラムの流れの繰り返し/問題3-1/問題3-1/問題3-1.cpp b/第3章 プログラムの流れの繰り返し/問題3-1/問題3-1/問題3-1.cpp	(rejected hunks)
-@@ -28,6 +28,7 @@
- {
- 	//retryPoint��J��Ԃ�����p�ϐ��Ƃ��Ē�`
- 	string retryPoint;
-+
- 	//do���̌J��Ԃ���w��
- 	do {
- 		//determinationInteger�𐮐��Ƃ��Ďw��
